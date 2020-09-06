@@ -1,0 +1,30 @@
+//compress: false
+@import "vars";
+@import 'mixins';
+
+html,
+body {
+    font-size: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: @black;
+    list-style-type: none;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+// blocks
+@import 'blocks/title';
+@import 'blocks/btn';

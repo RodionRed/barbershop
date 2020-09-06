@@ -1,0 +1,42 @@
+html,
+body {
+  font-size: 15px;
+}
+li {
+  list-style-type: none;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+  list-style-type: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.title {
+  margin: 0;
+  font-size: 5px;
+  color: rosybrown;
+  font-weight: 700;
+}
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px 1em;
+  color: white;
+  background-color: #132313;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 20px;
+  text-decoration: none;
+  transition: background 0.2s linear;
+}
+
+.btn:hover {
+  background-color: #49e049;
+  transition: background 0,3s linear;
+}
