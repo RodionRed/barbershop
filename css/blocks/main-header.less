@@ -1,0 +1,25 @@
+//main: ../style.less
+
+.main-header {
+    background-color: @black;
+}
+
+.main-nav_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--:nth-last-child {
+        color: pink;
+    }
+}
+
+.main_nav_item {
+    padding: 30px 0;
+    font-size: 16px;
+    color: green;
+    &:last-child {
+        padding-left: 20rem;
+        margin-right: 10rem;
+    }
+}
+

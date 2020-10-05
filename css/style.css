@@ -1,6 +1,17 @@
 html,
 body {
-  font-size: 35px;
+  font-size: 14px;
+}
+main {
+  font-weight: 400;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  margin: 0;
 }
 li {
   list-style-type: none;
@@ -22,7 +33,7 @@ body {
   color: rosybrown;
   font-weight: 700;
 }
-.btn {
+btn {
   display: inline-block;
   vertical-align: top;
   padding: 5px 1em;
@@ -35,11 +46,104 @@ body {
   text-decoration: none;
   transition: background 0.2s linear;
 }
-.btn--preimery {
+btn--preimery {
   color: red;
 }
-.btn:hover,
-.btn:focus {
+btn:hover,
+btn:focus {
   background-color: #49e049;
   transition: background 0.2s linear;
+}
+.main-header {
+  background-color: black;
+}
+.main-nav_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-nav_items--:nth-last-child {
+  color: pink;
+}
+.main_nav_item {
+  padding: 30px 0;
+  font-size: 16px;
+  color: green;
+}
+.main_nav_item:last-child {
+  padding-left: 20rem;
+  margin-right: 10rem;
+}
+.site {
+  content: '';
+  min-height: 507px;
+  background: url(..//img/main-background.jpg) no-repeat;
+}
+.container-site {
+  margin: 0 auto;
+  width: 1400px;
+}
+.logo-barbershop {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 45%;
+}
+.pros__lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+.pros__list {
+  position: relative;
+  width: 350px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.pros__list:last-child {
+  padding-right: 30px;
+}
+.pros__list:first-child {
+  padding-left: 20px;
+}
+.pros__list-description {
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 46px;
+}
+.pros__list-title {
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+.pros__list-title::before {
+  content: '';
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 56px;
+  transform: translateX(60%);
+  width: 50px;
+  height: 50px;
+  background: url(../img/Shape\ 1\ copy\ 2.svg) no-repeat;
+}
+.news-photos {
+  display: flex;
+  background-color: white;
+  text-align: top;
+  color: black;
+}
+.news {
+  display: flex;
+  width: 50%;
+}
+.news__lists {
+  width: 80%;
+}
+.photos {
+  width: 50%;
+  text-align: center;
+}
+.news-photos__center-line {
+  width: 12px;
+  background: url(..//img/Center-Line.png) no-repeat;
 }
