@@ -1,10 +1,15 @@
 html,
 body {
   font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
 }
 main {
   font-weight: 400;
   color: white;
+}
+h2 {
+  font-size: 30px;
 }
 a {
   text-decoration: none;
@@ -18,7 +23,7 @@ li {
 }
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   color: black;
   list-style-type: none;
 }
@@ -52,7 +57,20 @@ btn--preimery {
 btn:hover,
 btn:focus {
   background-color: #49e049;
-  transition: background 0.2s linear;
+  transition: background 0.35s linear;
+}
+.btn {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  border: 0;
+  width: 141px;
+  height: 40px;
+}
+.btn:hover,
+.btn:focus {
+  background-color: grey;
+  transition: background 0.6s linear;
 }
 .main-header {
   background-color: black;
@@ -137,13 +155,15 @@ btn:focus {
   width: 50%;
 }
 .news__lists {
-  width: 80%;
+  width: 86%;
+  padding-left: 150px;
 }
 .photos {
   width: 50%;
   text-align: center;
 }
 .news-photos__center-line {
+  margin: 11px 0;
   width: 12px;
   background: url(..//img/Center-Line.png) no-repeat;
 }
